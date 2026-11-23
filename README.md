@@ -1,4 +1,4 @@
-# OnkeCarpoolApp app
+# Carpool app
 
 ## Run the app
 
