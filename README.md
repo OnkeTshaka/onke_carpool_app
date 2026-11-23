@@ -2,21 +2,43 @@
 
 ## Run the app
 
-### uv
+### Set up python environment
 
-Run as a desktop app:
-
-```bash
-uv run flet run
-```
-
-Run as a web app:
+On windows
 
 ```bash
-uv run flet run --web
+python -m venv .venv
 ```
 
-For more details on running the app, refer to the [Getting Started Guide](https://flet.dev/docs/).
+```bash
+.venv/scripts/activate
+```
+
+On Linux/Mac
+
+```bash
+python3 -m venv .venv
+```
+
+```bash
+source .venv/bin/activate
+```
+
+### Install flet
+
+```bash
+pip install "flet[all]"
+
+```
+
+### Run the app
+
+```bash
+flet run
+
+```
+
+Might take a while to run on the first try, but everything should run smoothly going forward
 
 ## Build the app
 
